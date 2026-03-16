@@ -1,5 +1,5 @@
 {% set name = "playground" %}
-{% set version = "0.0.4" %}
+{% set version = "0.2.0" %}
 # The recent jax version required by this package require at least python 3.10
 {% set python_min = "3.10" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/playground-{{ version }}.tar.gz
-  sha256: 0a2efd0c5c34da60f9574dbade63bbe4ad72375513d0e314b9301d1f51d105c0
+  sha256: 0f377cbd2f9891f583d3ba8fa66a34c6f8aa4de65dd1d0e388f310a5c6171775
 
 build:
   noarch: python
